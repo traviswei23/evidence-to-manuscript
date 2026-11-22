@@ -1,5 +1,7 @@
 # 正文写作的来源可用性
 
+新增 ARIS 的 paper-plan、paper-write、auto-paper-improvement-loop，以及 AutoResearchClaw 的 statistical-reporting 和 Kalaris 的 autoresearch。五个入口与原有 S17 的区别见[工作流固定提交及落点](manuscript-loop.md#四这些操作承接了哪些工作流)。下面的 342 是原精选范围的文件数。
+
 本阶段的 20 份技能入口均已取得。每份入口按原清单指定的 GitHub 提交核对。连同直接讲解方法的文档、提示词、模板、脚本及重定位的关联材料，归集 342 个不同的仓库文件。同一文件只在本阶段计一次。文件数量仅用于复查来源。
 
 以下记录影响复查的缺件、路径调整和容易误当原始资料的示例。每个入口的完整方法对应关系见本技能的来源对照。

@@ -1,0 +1,70 @@
+{
+  "draft": "manuscript.md",
+  "supporting_files": [
+    "generate.py"
+  ],
+  "quantities": [
+    {
+      "id": "C1",
+      "csv": "results.csv",
+      "where": {
+        "radius_over_w": "0.5",
+        "cells": "200"
+      },
+      "column": "capture",
+      "unit_column": "unit",
+      "unit": "%",
+      "places": 2,
+      "contexts": [
+        "孔径半径为 $0.5w$ 时，收集比例为 {value}。"
+      ]
+    },
+    {
+      "id": "C2",
+      "csv": "results.csv",
+      "where": {
+        "radius_over_w": "1.0",
+        "cells": "200"
+      },
+      "column": "capture",
+      "unit_column": "unit",
+      "unit": "%",
+      "places": 2,
+      "contexts": [
+        "在孔径半径等于光束半径时，积分得到的收集功率占总功率的 {value}。",
+        "孔径增至 $w$ 时，收集比例升至 {value}。"
+      ]
+    },
+    {
+      "id": "C3",
+      "csv": "results.csv",
+      "where": {
+        "radius_over_w": "1.5",
+        "cells": "200"
+      },
+      "column": "capture",
+      "unit_column": "unit",
+      "unit": "%",
+      "places": 2,
+      "contexts": [
+        "继续增至 $1.5w$，收集比例达到 {value}。"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "id": "F1",
+      "file": "collection.png",
+      "mention": "图 1 中的积分点在绘图精度内与解析曲线重合。"
+    }
+  ],
+  "citations": [
+    {
+      "id": "R1",
+      "in_text": "不同海面模型的预测[1]",
+      "bibliography": "[1] Gao H, Zhang T, Yuan R, Hu L, Chen S.",
+      "locator": "Gao 等，第 4 节，图 6a,b 及图 7；DOI 10.3390/s25041239",
+      "supports": "该文对照两种海面模型的接收面功率分布和剖面，提供问题背景。"
+    }
+  ]
+}
