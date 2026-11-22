@@ -1,5 +1,7 @@
 # 正文写作的来源可用性
 
+英文写作精选补入 7 个此前未直接纳入本技能的固定入口。④阶段有 27 个有效条目，③阶段另采用 result-to-claim，逐项范围、适用操作和直接链接见[英文执行说明](english-revision.md)。
+
 新增 ARIS 的 paper-plan、paper-write、auto-paper-improvement-loop，以及 AutoResearchClaw 的 statistical-reporting 和 Kalaris 的 autoresearch。五个入口与原有 S17 的区别见[工作流固定提交及落点](manuscript-loop.md#四这些操作承接了哪些工作流)。下面的 342 是原精选范围的文件数。
 
 本阶段的 20 份技能入口均已取得。每份入口按原清单指定的 GitHub 提交核对。连同直接讲解方法的文档、提示词、模板、脚本及重定位的关联材料，归集 342 个不同的仓库文件。同一文件只在本阶段计一次。文件数量仅用于复查来源。
